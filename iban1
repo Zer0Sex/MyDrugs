@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <link rel="stylesheet" href="css/style.css">
+	 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="releases/v5.15.3/css/pro.min.css">
+
+    <meta charset="UTF-8">
+
+    <title>IBAN - MyDrugs</title>
+
+  </head>
+
+  <body>
+
+    <section id="topnav">
+
+      <div class="nav">
+
+        <div class="logo">
+
+          <img src="/assets/img/whitelogo_noname.png" alt="Logo">
+
+         </div>
+
+        <div class="menu">
+
+          <ul class="nav-menu">
+
+            <li><a href="/index.html" class="active">Home</a></li>
+
+            <li><a href="/safety.html">Güvenlik</a></li>
+
+            <li><a href="/faq.html">S.S.S</a></li>
+			  
+            <li><a href="/creator.html">Kurucu</a></li>
+
+
+
+              <li>
+
+                <button onclick="location.href='/shop.html'" class="blue-btn">
+
+                  Market
+
+                </button>
+
+              </li>
+
+            </div>
+
+          </ul>
+
+          <div class="hamburger">
+
+            <span class="bar"></span>
+
+            <span class="bar"></span>
+
+            <span class="bar"></span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="navbar">
+
+      <div class="nav">
+
+        <div class="pagenav"><a href="/index.html">Anasayfa</a> > IBAN</div>
+
+        <div class="menu">
+
+            <li>
+
+              <button onclick="location.href='/shop/shop.html'" class="blue-btn">
+
+                Shop
+
+              </button>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="shop-category">
+
+      <div class="container">
+
+        <div class="faq">
+
+          <h>
+
+            IBAN ODEME ISLEMI
+
+          </h>
+
+          <p>
+            <h2>
+            IBAN NUMARASI
+			</h2>
+			<p>
+			TR86 0006 2000 5990 0006 6238 97
+			</p>
+			<h2>
+			ISIM SOYISIM
+			</h2>
+			<p>
+			EDA ZEYNEP DEGIRMENCI
+			</p>
+			<h2>
+			BANKA
+			</h2>
+			<p>
+			GARANTI
+			</p>
+			<h2>
+			ODENECEK TUTAR
+			</h2>
+			<p>
+			400TL
+			</p>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="footer">
+
+      <div class="text">
+
+       
+
+      </div>
+
+    </section>
+
+  </body>
+
+  <script>
+
+    const hamburger = document.querySelector(".hamburger");
+
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+
+      hamburger.classList.toggle("active");
+
+      navMenu.classList.toggle("active");
+
+    }
+
+  </script>
+
+</html>
+
+  
+     
+
+
+

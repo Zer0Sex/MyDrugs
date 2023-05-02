@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="releases/v5.15.3/css/pro.min.css">
+
+    <meta charset="UTF-8">
+
+    <title>Siyanür - MyDrugs</title>
+
+  </head>
+
+  <body>
+
+    <section id="topnav">
+
+      <div class="nav">
+
+        <div class="logo">
+
+          <img src="/assets/img/whitelogo_noname.png" alt="Logo">
+
+         </div>
+
+        <div class="menu">
+
+          <ul class="nav-menu">
+
+            <li><a href="/index.htm" class="active">Anasayfa</a></li>
+
+            <li><a href="/safety.html">Güvenlik</a></li>
+
+            <li><a href="/faq.html">S.S.S</a></li>
+
+            <li><a href="/creator.html">Kurucu</a></li>
+
+              <li>
+
+                <button onclick="location.href='/shop.html'" class="blue-btn">
+
+                  Market
+
+                </button>
+
+              </li>
+
+            </div>
+
+          </ul>
+
+          <div class="hamburger">
+
+            <span class="bar"></span>
+
+            <span class="bar"></span>
+
+            <span class="bar"></span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="navbar">
+
+      <div class="nav">
+
+        <div class="pagenav"><a href="/index.htm">Anasayfa</a> > Market</div>
+
+        <div class="menu">
+
+            <li>
+
+              <button onclick="location.href='/shop.html'" class="blue-btn">
+
+                Market
+
+              </button>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="shop-category">
+
+      <div class="container">
+
+        <div class="safety">
+
+          <h2>SIYANUR !</h2>
+
+          <h3>Dünya'nın Heryerine Aynı Gün Kargo "..."</h3>
+
+<div class="card">
+
+            <div class="img">
+
+            <img src="/assets/img/cyanide.png" alt="PRODUCT_IMG" 
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="prodinf">
+
+              <div class="info">
+
+                <div class="title">Golden Haze </div>
+
+                <div class="desc">Siyanür İnsanı Dakikalar İçinde Öldürür. FOTOĞRAF YAPIM AŞAMASINDANDIR</div>
+
+                <div class="price">0.0017 BTC</div>
+
+              </div>
+
+              <div class="options">
+
+                <div class="amount">
+
+                  <button><i class="fas fa-star"></i></button>
+
+                   <p><font size="0">İyi Kullanımlar <3</p></font>
+
+                  <button><i class="fas fa-star"></i></button>
+
+                </div>
+
+              <a href="https://My-Drugs.life/buy2.html"<button class="add-to-cart"><center>Buy</center></button></a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    <section id="footer">
+
+      <div class="text">
+
+        <bottom>Official MyDrugs Project</bottom>
+
+      </div>
+
+    </section>
+
+  </body>
+
+  <script>
+
+    const hamburger = document.querySelector(".hamburger");
+
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+
+      hamburger.classList.toggle("active");
+
+      navMenu.classList.toggle("active");
+
+    }
+
+  </script>
+
+</html>
+
+
+  

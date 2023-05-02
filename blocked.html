@@ -1,0 +1,196 @@
+<div class="skype-call">
+  <div class="preview">
+    <button class="live btn"> <i class="circle"></i>LIVE</button>
+    <div class="video"></div>
+  </div>
+</div>
+
+<div class="perspector">
+  <pre class="element perspectiveText">
+       <code class="highlighter editor-text" data-manual><div id="console">two_step_auth_command.bui<br><br>==*=*- for agent 54348<br><br>Username: 404CAT<br>Password: ********************<br><br><br>ACCESS TO SYSTEM GRANTED<br><br>Version 3.2654.2<br>Initializing...<br><br>
+        |\__/,|   (`\
+      _.|o o  |_   ) )
+---(((---(((-----------------------------------------------------
+<br>struedit.bui -r -s -unauth<br>sys_log = false;<br><br>struct meow_info init_meows =  .usage = ATOMIC_INIT(2) ;<br><br>struct meow_info *meows_alloc(int growlsetsize){<br><br>&nbsp;&nbsp;&nbsp;&nbsp;struct meow_info *meow_info;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;int meow;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;int i;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;meow = (growlsetsize + meowS_PER_CAT - 1) / meowS_PER_CAT;<br>&nbsp;&nbsp;&nbsp;&nbsp;meow = meow ? : 1;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;meow_info = kmalloc(sizeof(*meow_info) + meow*sizeof(gid_t *), GFP_CAT);<br><br>&nbsp;&nbsp;&nbsp;&nbsp;if (!meow_info)<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return NULLCAT;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;meow_info-&gt;meows = growlsetsize;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;meow_info-&gt;meow = meow;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;atomic_set(&amp;meow_info-&gt;usage, 1);<br><br>&nbsp;&nbsp;&nbsp;&nbsp;if (growlsetsize &lt;= meowS_SMALL)<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;meow_info-&gt;cats[0] = meow_info-&gt;small_block;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;else {<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt; meow; i++) {<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gid_t *b;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b = (void *)__get_atomic_page(CAT_USER);<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (!b)<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;goto out_undo_partial_alloc;<br>return NULLCAT;<br>}<br><br>EXPORT_SYMBOL(Monorail Cat);
+<br>/* Sayfa Bulunamadı <br>Veya Girilmemesi Gereken Bir Sayfaya Ulaşmaya Çalıştınız<br>
+                               |        |
+                               |\      /|
+                               | \____/ |
+                               |  /\/\  |
+                              .'___  ___`.
+                             /  \|/  \|/  \                
+            _.--------------( ____ __ _____)
+         .-' \  -. | | | | | \ ----\/---- /
+       .'\  | | / \` | | | |  `.  -'`-  .'
+      /`  ` ` '/ / \ | | | | \  `------'\
+     /-  `-------.' `-----.       -----. `---.
+    (  / | | | |  )/ | | | )/ | | | | | ) | | )
+     `._________.'_____,,,/\_______,,,,/_,,,,/  404 CAT
+------           --       --          ---     --------------------               
+
+     <br>/*Greetings from the internet, 404 CAT*/<br></div>
+</code>
+<div class='scanlines'></div>
+    </pre>
+</div>
+
+<head>
+  // The 404 page from my site http://chabot.tv/404
+$(function(){
+
+  var text = $(".element code").html()
+
+  $(".highlighter").typed({
+      strings: [text],
+      contentType: 'html',
+      typeSpeed: -35,
+      cursorChar: '&#9608;'
+  });
+  
+   var scrolltobottom = setInterval(function(){ window.scrollTo(0, document.body.scrollHeight)}, 600);
+  function f() {
+     clearInterval(scrolltobottom);
+  }
+setTimeout(f, 55000)
+});
+
+</head>
+<style>
+  body {
+  background: #010;
+  -webkit-filter: blur(0.7px);
+  filter: blur(0.7px);
+  overflow: hidden;
+  font-family: monospace;
+}
+
+.skype-call {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.preview {
+  position: relative;
+  width: 330px;
+  height: 230px;
+  background-color: #030403;
+  -webkit-box-shadow: 0px 2px 29px 3px rgba(10, 9, 10, 1);
+  -moz-box-shadow: 0px 2px 29px 3px rgba(10, 9, 10, 1);
+  box-shadow: 0px 2px 29px 3px rgba(10, 9, 10, 1);
+}
+
+.btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #F5A623;
+  font: 13px sans-serif;
+  font-weight: bold;
+  padding: 2px 4px;
+  margin: 4px 4px;
+  border: 0;
+  outline: 0px;
+  z-index: 10;
+}
+
+.circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 7px;
+  height: 7px;
+  margin: 0px 4px 2px 0px;
+  border-radius: 50%;
+  background-color: black;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.video {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  animation: fade 1s linear;
+  -webkit-animation: fade 1s linear;
+  -moz-animation: fade 1s linear;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  99% {
+    background-image: url('https://media.giphy.com/media/7IzRozhvj33wY/giphy.gif');
+  }
+  100% {
+    background-image: url('http://chabot.tv/img/pianocat.gif');
+  }
+}
+
+@-moz-keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.18;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@-webkit-keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.18;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.18;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: -webkit-linear-gradient(rgba(70, 70, 70, 0.6) 0%, transparent 25%)!important;
+  background-image: linear-gradient(to, transparent 25%)!important;
+  background-size: 1px 3px;
+}
+
+.editor-text {
+  color: #9F9 !important;
+  font-size: 1em;
+  text-shadow: 1px 0px 5px #0F0, -1px 0px 2px #0F0 !important;
+}
+</style>
